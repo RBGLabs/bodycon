@@ -1,5 +1,10 @@
 # Changelog
 
+## bodycon 0.2.1
+
+- Revised DESCRIPTION wording and methodological references following
+  CRAN review.
+
 ## bodycon 0.2.0
 
 - Renamed `bci_smi_ols()` to
