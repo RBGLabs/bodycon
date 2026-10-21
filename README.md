@@ -1,14 +1,4 @@
-<table>
-<tr>
-<td>
-<h1>bodycon</h1>
-<p>Body condition indices for ecological research in R.</p>
-</td>
-<td align="right">
-<img src="man/figures/hex_sticker.png" width="115" alt="bodycon package hex sticker" />
-</td>
-</tr>
-</table>
+# bodycon <img src="man/figures/hex_sticker.png" align="right" height="150" />
 
 <!-- badges: start -->
 [![R-CMD-check](https://github.com/julia-riley/bodycon/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/julia-riley/bodycon/actions/workflows/R-CMD-check.yaml)
