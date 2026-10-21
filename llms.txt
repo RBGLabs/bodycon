@@ -1,8 +1,4 @@
-# bodycon
-
-|  |  |
-|----|---:|
-| Body condition indices for ecological research in R. | ![bodycon package hex sticker](reference/figures/hex_sticker.png) |
+# bodycon ![](reference/figures/hex_sticker.png)
 
 `bodycon` is an R package for calculating commonly used body condition
 indices in wildlife ecology research. In this research field, an
