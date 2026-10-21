@@ -35,10 +35,11 @@ remotes::install_github("julia-riley/bodycon")
 
 ## Getting Started
 
-See the [package vignette](https://github.com/RBGLabs/bodycon/issues)
-for an introduction to `bodycon`, including examples of the included
-body condition index methods and approaches for evaluating their
-suitability for your data.
+See the [package
+vignette](https://rbglabs.github.io/bodycon/articles/bodycon.html) for
+an introduction to `bodycon`, including examples of the included body
+condition index methods and approaches for evaluating their suitability
+for your data.
 
 ## Citing `bodycon`
 
