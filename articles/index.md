@@ -3,4 +3,4 @@
 ### All vignettes
 
 - [bodycon Quick Start
-  Guide](https://github.com/RBGLabs/bodycon/issues/articles/bodycon.md):
+  Guide](https://rbglabs.github.io/bodycon/articles/bodycon.md):

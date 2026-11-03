@@ -4,21 +4,22 @@
 
 - Revised DESCRIPTION wording and methodological references following
   CRAN review.
+- Updated GitHub repository, issue-tracking, and package website URLs
+  following the transfer to the RBGLabs organization.
 
 ## bodycon 0.2.0
 
 - Renamed `bci_smi_ols()` to
-  [`bci_smi()`](https://github.com/RBGLabs/bodycon/issues/reference/bci_smi.md)
+  [`bci_smi()`](https://rbglabs.github.io/bodycon/reference/bci_smi.md)
   to reflect that the scaled mass index (SMI) uses standardized major
   axis (SMA) regression to estimate the scaling exponent
 - Updated
-  [`bci_smi_rob()`](https://github.com/RBGLabs/bodycon/issues/reference/bci_smi_rob.md)
+  [`bci_smi_rob()`](https://rbglabs.github.io/bodycon/reference/bci_smi_rob.md)
   to use robust standardized major axis (SMA) regression to estimate the
   SMI scaling exponent
-- Updated
-  [`bci()`](https://github.com/RBGLabs/bodycon/issues/reference/bci.md)
+- Updated [`bci()`](https://rbglabs.github.io/bodycon/reference/bci.md)
   and
-  [`plot_bci()`](https://github.com/RBGLabs/bodycon/issues/reference/plot_bci.md)
+  [`plot_bci()`](https://rbglabs.github.io/bodycon/reference/plot_bci.md)
   to use the revised SMI method names and terminology
 - Improved handling of missing values in OLS residual calculations
 

@@ -4,8 +4,8 @@ Visualize and compare body condition index (BCI) estimation methods by
 plotting raw, observed body size–weight data alongside reference
 relationships implied by the selected BCI method(s). The function
 applies the same body condition index methods used by
-[`bci()`](https://github.com/RBGLabs/bodycon/issues/reference/bci.md) to
-provide a consistent visual comparison of the resulting relationships.
+[`bci()`](https://rbglabs.github.io/bodycon/reference/bci.md) to provide
+a consistent visual comparison of the resulting relationships.
 
 ## Usage
 
