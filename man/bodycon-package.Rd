@@ -6,23 +6,24 @@
 \alias{bodycon-package}
 \title{bodycon: Estimation of Animal Body Condition Indices}
 \description{
-Provides functions for calculating and visualizing body condition indices for animals. Methods include residual-based ordinary least squares (OLS) indices, the scaled mass index (SMI) using classical standardized major axis (SMA) regression, and the SMI using robust SMA regression, along with visualizations for comparing these approaches.
+Calculates animal body condition indices from measurements of body size and mass. Methods include residual-based ordinary least squares (OLS), the scaled mass index (SMI) using standardised major axis (SMA) regression, and SMI using robust SMA regression. Visualisation tools support comparison of indices and assessment of the suitability of these approaches. See Krebs and Singleton (1993) \doi{10.1071/ZO9930317}, Peig and Green (2009) \doi{10.1111/j.1600-0706.2009.17643.x}, and Warton et al. (2012) \doi{10.1111/j.2041-210X.2011.00153.x}.
 }
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://github.com/julia-riley/bodycon}
-  \item Report bugs at \url{https://github.com/julia-riley/bodycon/issues}
+  \item \url{https://rbglabs.github.io/bodycon/}
+  \item \url{https://github.com/RBGLabs/bodycon}
+  \item Report bugs at \url{https://github.com/RBGLabs/bodycon/issues}
 }
 
 }
 \author{
-\strong{Maintainer}: Julia Riley \email{jriley@mta.ca} (\href{https://orcid.org/0000-0001-7691-6910}{ORCID})
+\strong{Maintainer}: Julia Riley \email{jriley@mta.ca} (\href{https://orcid.org/0000-0001-7691-6910}{ORCID}) [copyright holder]
 
 Authors:
 \itemize{
-  \item Julia Riley \email{jriley@mta.ca} (\href{https://orcid.org/0000-0001-7691-6910}{ORCID})
-  \item Fonti Kar (\href{https://orcid.org/0000-0002-2760-3974}{ORCID})
+  \item Julia Riley \email{jriley@mta.ca} (\href{https://orcid.org/0000-0001-7691-6910}{ORCID}) [copyright holder]
+  \item Fonti Kar (\href{https://orcid.org/0000-0002-2760-3974}{ORCID}) [copyright holder]
 }
 
 }

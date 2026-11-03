@@ -12,7 +12,7 @@ knitr::opts_chunk$set(
 
 ## ----eval = FALSE-------------------------------------------------------------
 # install.packages("remotes")
-# remotes::install_github("julia-riley/bodycon")
+# remotes::install_github("RBGLabs/bodycon")
 
 ## -----------------------------------------------------------------------------
 library(bodycon)

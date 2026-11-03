@@ -7,8 +7,8 @@ Authors@R: c(
     )
 Description: Calculates animal body condition indices from measurements of body size and mass. Methods include residual-based ordinary least squares (OLS), the scaled mass index (SMI) using standardised major axis (SMA) regression, and SMI using robust SMA regression. Visualisation tools support comparison of indices and assessment of the suitability of these approaches. See Krebs and Singleton (1993) <doi:10.1071/ZO9930317>, Peig and Green (2009) <doi:10.1111/j.1600-0706.2009.17643.x>, and Warton et al. (2012) <doi:10.1111/j.2041-210X.2011.00153.x>.
 License: MIT + file LICENSE
-URL: https://github.com/julia-riley/bodycon, https://julia-riley.github.io/bodycon/
-BugReports: https://github.com/julia-riley/bodycon/issues
+URL: https://rbglabs.github.io/bodycon/, https://github.com/RBGLabs/bodycon
+BugReports: https://github.com/RBGLabs/bodycon/issues
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 Imports:

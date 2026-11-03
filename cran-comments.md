@@ -2,8 +2,8 @@
 
 This is a resubmission following CRAN review. In this version I have:
 
-*In DESCRIPTION, removed redundant wording from the beginning of the Description field.
-*Reformatted the methodological references in DESCRIPTION to include authors, years, and DOI links.
+*Updated repository, issue-tracking, and package website URLs following the transfer of the GitHub repository to the RBGLabs organization.
+*Updated package documentation to reflect the new repository and website URLs.
 
 ## R CMD check results
 

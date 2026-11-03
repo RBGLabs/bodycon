@@ -68,7 +68,7 @@ install.packages("bodycon")
 To install the development version from GitHub:
 ```{r, eval = FALSE}
 install.packages("remotes")
-remotes::install_github("julia-riley/bodycon")
+remotes::install_github("RBGLabs/bodycon")
 ```
 
 ### Load `bodycon`

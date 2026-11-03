@@ -30,15 +30,16 @@ The development version of `bodycon` can be installed from GitHub with:
 
 ``` r
 
-remotes::install_github("julia-riley/bodycon")
+remotes::install_github("RBGLabs/bodycon")
 ```
 
 ## Getting Started
 
-See the [package vignette](https://github.com/RBGLabs/bodycon/issues)
-for an introduction to `bodycon`, including examples of the included
-body condition index methods and approaches for evaluating their
-suitability for your data.
+See the [package
+vignette](https://rbglabs.github.io/bodycon/articles/bodycon.html) for
+an introduction to `bodycon`, including examples of the included body
+condition index methods and approaches for evaluating their suitability
+for your data.
 
 ## Citing `bodycon`
 
@@ -58,5 +59,5 @@ citation("bodycon")
 ## Find a Bug?
 
 Thank you for catching it! Please open an [issue on
-GitHub](https://github.com/julia-riley/bodycon/issues) and let us know
-about it. We will try to get to it as soon as we can.
+GitHub](https://github.com/RBGLabs/bodycon/issues) and let us know about
+it. We will try to get to it as soon as we can.

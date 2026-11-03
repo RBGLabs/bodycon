@@ -36,14 +36,14 @@ At present, `bci_smi_ols()` calculates an
 calculate the returned SMI is obtained from
 [`smatr::sma()`](https://traitecoevo.github.io/smatr/reference/sma.html).
 Likewise,
-[`bci_smi_rob()`](https://julia-riley.github.io/bodycon/reference/bci_smi_rob.md)
+[`bci_smi_rob()`](https://github.com/RBGLabs/bodycon/issues/reference/bci_smi_rob.md)
 calculates a [`MASS::rlm()`](https://rdrr.io/pkg/MASS/man/rlm.html)
 object, but the returned SMI uses `smatr::sma(..., robust = TRUE)`.
 
 Thus, the current implementation is effectively:
 
 - `bci_smi_ols()` = SMI using a classical SMA slope
-- [`bci_smi_rob()`](https://julia-riley.github.io/bodycon/reference/bci_smi_rob.md)
+- [`bci_smi_rob()`](https://github.com/RBGLabs/bodycon/issues/reference/bci_smi_rob.md)
   = SMI using a robust SMA slope
 
 The [`lm()`](https://rdrr.io/r/stats/lm.html) and `rlm()` fits are not

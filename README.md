@@ -1,7 +1,7 @@
 # bodycon <img src="man/figures/hex_sticker.png" align="right" width="120" />
 
 <!-- badges: start -->
-[![R-CMD-check](https://github.com/julia-riley/bodycon/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/julia-riley/bodycon/actions/workflows/R-CMD-check.yaml)
+[![R-CMD-check](https://github.com/RBGLabs/bodycon/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/RBGLabs/bodycon/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 `bodycon` is an R package for calculating commonly used body condition indices in wildlife ecology research. In this research field, an individual's fitness traits, like reproduction and survival, are important measures of individual performance and health. However, direct measures of fitness can be impractical to collect in the field due to financial or logistical constraints. So, in these cases, animal ecologists often rely on proxies of individual fitness, such as body condition. 
@@ -19,7 +19,7 @@ install.packages("bodycon")
 The development version of `bodycon` can be installed from GitHub with: 
 
 ```r
-remotes::install_github("julia-riley/bodycon")
+remotes::install_github("RBGLabs/bodycon")
 ```
 
 ## Getting Started
@@ -41,4 +41,4 @@ citation("bodycon")
 
 ## Find a Bug?
 
-Thank you for catching it! Please open an [issue on GitHub](https://github.com/julia-riley/bodycon/issues) and let us know about it. We will try to get to it as soon as we can.
+Thank you for catching it! Please open an [issue on GitHub](https://github.com/RBGLabs/bodycon/issues) and let us know about it. We will try to get to it as soon as we can.
