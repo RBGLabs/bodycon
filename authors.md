@@ -11,7 +11,7 @@
 ## Citation
 
 Source:
-[`inst/CITATION`](https://github.com/julia-riley/bodycon/blob/main/inst/CITATION)
+[`inst/CITATION`](https://github.com/RBGLabs/bodycon/blob/main/inst/CITATION)
 
 Riley J, Kar F (2026). *bodycon: Estimation of Animal Body Condition
 Indices*.
