@@ -1,6 +1,7 @@
 # bodycon 0.2.1
 
 * Revised DESCRIPTION wording and methodological references following CRAN review.
+* Updated GitHub repository, issue-tracking, and package website URLs following the transfer to the RBGLabs organization.
 
 # bodycon 0.2.0
 

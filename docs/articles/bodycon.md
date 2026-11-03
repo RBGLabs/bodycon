@@ -102,9 +102,9 @@ dplyr::glimpse(salamander)
 
 The `bodycon` package provides several functions for calculating body
 condition indices from measurements of animal body size and mass. The
-[`bci()`](https://github.com/RBGLabs/bodycon/issues/reference/bci.md)
-function can be used to calculate indices using one or more methods,
-while separate functions are also available for each method. The package
+[`bci()`](https://rbglabs.github.io/bodycon/reference/bci.md) function
+can be used to calculate indices using one or more methods, while
+separate functions are also available for each method. The package
 currently includes three methods: OLS residuals, the scaled mass index
 (SMI) using standardised major axis (SMA) regression, and the SMI using
 robust SMA regression. All methods require a standardised measure of
@@ -114,7 +114,7 @@ squamates) and a measure of body mass.
 ### Residuals from ordinary least squares regression
 
 The
-[`bci_resid_ols()`](https://github.com/RBGLabs/bodycon/issues/reference/bci_resid_ols.md)
+[`bci_resid_ols()`](https://rbglabs.github.io/bodycon/reference/bci_resid_ols.md)
 function estimates body condition indices from the residuals of an
 ordinary least squares regression (OLS). This is a traditional approach
 in ecology (Krebs and Singleton 1993). For example, body condition can
@@ -144,7 +144,7 @@ For example, `gartersnake |> bci_resid_ols(svl_mm, mass_g)` is
 equivalent to the example above.
 
 By default,
-[`bci_resid_ols()`](https://github.com/RBGLabs/bodycon/issues/reference/bci_resid_ols.md)
+[`bci_resid_ols()`](https://rbglabs.github.io/bodycon/reference/bci_resid_ols.md)
 assumes an allometric relationship between body size and mass, with both
 variables log-transformed before the OLS regression is fitted. This is a
 common approach for modelling the relationship between body size and
@@ -180,7 +180,7 @@ are log-transformed before the scaling relationship is estimated.
 #### SMI using standardised major axis regression
 
 The
-[`bci_smi()`](https://github.com/RBGLabs/bodycon/issues/reference/bci_smi.md)
+[`bci_smi()`](https://rbglabs.github.io/bodycon/reference/bci_smi.md)
 function calculates SMI using standardised major axis (SMA) regression.
 For example, we can calculate SMI for the `salamander` dataset using:
 
@@ -214,7 +214,7 @@ SMI.
 #### SMI using robust standardised major axis regression
 
 The
-[`bci_smi_rob()`](https://github.com/RBGLabs/bodycon/issues/reference/bci_smi_rob.md)
+[`bci_smi_rob()`](https://rbglabs.github.io/bodycon/reference/bci_smi_rob.md)
 function calculates SMI using robust standardised major axis (SMA)
 regression. This approach reduces the influence of potential outliers
 when estimating the relationship between body size and mass.
@@ -248,8 +248,7 @@ size and mass.
 
 ### Using multiple methods at once
 
-The
-[`bci()`](https://github.com/RBGLabs/bodycon/issues/reference/bci.md)
+The [`bci()`](https://rbglabs.github.io/bodycon/reference/bci.md)
 function allows you to calculate body condition indices using multiple
 methods at once. This can be useful when you want to compare how
 estimates of body condition differ among methods.
@@ -331,7 +330,7 @@ data. These plots should be considered alongside the relevant literature
 and the goals of your analyses when selecting a body condition index.
 
 The
-[`plot_bci()`](https://github.com/RBGLabs/bodycon/issues/reference/plot_bci.md)
+[`plot_bci()`](https://rbglabs.github.io/bodycon/reference/plot_bci.md)
 function allows you to visualise:
 
 - OLS residuals (`"resid_ols"`)
@@ -362,7 +361,7 @@ plot_bci(
 #### Comparing linear and allometric relationships
 
 You can also use
-[`plot_bci()`](https://github.com/RBGLabs/bodycon/issues/reference/plot_bci.md)
+[`plot_bci()`](https://rbglabs.github.io/bodycon/reference/plot_bci.md)
 to compare linear versus allometric relationships between body size and
 mass. This can be useful when evaluating whether the assumptions of the
 residual OLS method are appropriate for your data.
