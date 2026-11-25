@@ -13,15 +13,14 @@
 Source:
 [`inst/CITATION`](https://github.com/RBGLabs/bodycon/blob/HEAD/inst/CITATION)
 
-Riley J, Kar F (2026). *bodycon: Estimation of Animal Body Condition
-Indices*.
-[doi:10.5281/zenodo.23066174](https://doi.org/10.5281/zenodo.23066174).
-R package version 0.1.0.
+Riley, J. L., & Kar, F. (2026). bodycon: Estimation of Animal Body
+Condition Indices. R package version 0.2.1.
+https://doi.org/10.32614/CRAN.package.bodycon
 
     @Manual{,
       title = {bodycon: Estimation of Animal Body Condition Indices},
       author = {Julia Riley and Fonti Kar},
       year = {2026},
-      note = {R package version 0.1.0},
-      doi = {10.5281/zenodo.23066174},
+      note = {R package version 0.2.1},
+      doi = {10.32614/CRAN.package.bodycon},
     }
