@@ -2,6 +2,9 @@
 
 <!-- badges: start -->
 [![R-CMD-check](https://github.com/RBGLabs/bodycon/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/RBGLabs/bodycon/actions/workflows/R-CMD-check.yaml)
+[![CRAN version](https://www.r-pkg.org/badges/version/bodycon)](https://CRAN.R-project.org/package=bodycon)
+[![CRAN downloads](https://cranlogs.r-pkg.org/badges/grand-total/bodycon)](https://CRAN.R-project.org/package=bodycon)
+[![Zenodo DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23066174.svg)](https://doi.org/10.5281/zenodo.23066174)
 <!-- badges: end -->
 
 `bodycon` is an R package for calculating commonly used body condition indices in wildlife ecology research. In this research field, an individual's fitness traits, like reproduction and survival, are important measures of individual performance and health. However, direct measures of fitness can be impractical to collect in the field due to financial or logistical constraints. So, in these cases, animal ecologists often rely on proxies of individual fitness, such as body condition. 
@@ -29,9 +32,9 @@ See the [package vignette](https://rbglabs.github.io/bodycon/articles/bodycon.ht
 
 ## Citing `bodycon`
 
-If you make use of `bodycon` in your research, please cite:
+If you use `bodycon` in your research, please cite the CRAN package:
 
-Riley J, Kar F (2026). *bodycon: Estimation of Animal Body Condition Indices*. R package version 0.1.0. https://doi.org/10.5281/zenodo.23066174
+Riley, J. L., & Kar, F. (2026). *bodycon: Estimation of Animal Body Condition Indices.* R package version 0.2.1. https://doi.org/10.32614/CRAN.package.bodycon
 
 You can also obtain the citation directly in R:
 

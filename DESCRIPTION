@@ -1,6 +1,6 @@
 Package: bodycon
 Title: Estimation of Animal Body Condition Indices
-Version: 0.2.1
+Version: 0.2.2
 Authors@R: c(
     person("Julia", "Riley", , "jriley@mta.ca", role = c("aut", "cre", "cph"), comment = c(ORCID = "0000-0001-7691-6910")),
     person("Fonti", "Kar", role = c("aut", "cph"), comment = c(ORCID = "0000-0002-2760-3974"))

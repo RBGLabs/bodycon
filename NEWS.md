@@ -1,3 +1,8 @@
+# bodycon 0.2.2
+
+* Updated package citation to include the CRAN DOI.
+* Updated README badges and citation information.
+
 # bodycon 0.2.1
 
 * Revised DESCRIPTION wording and methodological references following CRAN review.
